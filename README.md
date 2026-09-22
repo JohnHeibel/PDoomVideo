@@ -25,6 +25,7 @@ The video took two generations, both in Claude Code:
 - give each lyric interesting visuals and transitions
 
 [`ANIMATION_GUIDE.md`](ANIMATION_GUIDE.md) was written by Opus to brief the subagents it ran in parallel.
+
 [`STORYBOARD.md`](STORYBOARD.md) was also written by Opus after the first generation, after being instructed to use P5 brushstrokes, make each scene visually interesting, and make every scene transition into the next.
 ## What's here
 
