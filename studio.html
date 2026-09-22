@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>P(doom) studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shantell+Sans:wght@800&display=block">
+<style>
+  html, body { margin: 0; background: #1b1820; color: #eee; font: 13px system-ui, sans-serif; }
+  main { padding: 12px; display: grid; gap: 8px; }
+  #out { width: min(100%, 1280px); aspect-ratio: 16 / 9; height: auto; background: #F3EBDC; }
+  .p5Canvas { display: none !important; }
+  .bar { display: flex; gap: 10px; align-items: center; max-width: 1280px; }
+  #scrub { flex: 1; }
+  #tt { font-variant-numeric: tabular-nums; min-width: 190px; }
+</style>
+<script src="node_modules/p5/lib/p5.min.js"></script>
+<script src="node_modules/p5.brush/dist/p5.brush.js"></script>
+</head>
+<body>
+<main>
+  <canvas id="out" width="1920" height="1080"></canvas>
+  <div class="bar"><input id="scrub" type="range" min="0" max="156.6" step="0.0417" value="0"><span id="tt">loading…</span></div>
+</main>
+<script src="src/core.js"></script>
+<script src="src/clawd.js"></script>
+<script src="src/cast.js"></script>
+<script src="src/props.js"></script>
+<script src="src/lyrics.js"></script>
+<script src="src/timeline.js"></script>
+<script>const CAST = {};  // guest characters shared between chapters (e.g. for the curtain call)</script>
+<script src="src/ch/c01_lab.js"></script>
+<script src="src/ch/c02_chorus1.js"></script>
+<script src="src/ch/c03_takeoff.js"></script>
+<script src="src/ch/c04_chorus2.js"></script>
+<script src="src/ch/c05_obsolete.js"></script>
+<script src="src/ch/c06_chorus3.js"></script>
+<script src="src/ch/c07_scale.js"></script>
+<script src="src/ch/c08_chorus4.js"></script>
+<script src="src/ch/c09_finale.js"></script>
+</body>
+</html>
