@@ -1,6 +1,11 @@
 # I'm Upping My P(doom)
 
-Source code for the Claude Opus 5.5 music video for *I'm Upping My P(doom)*.
+Source code for the [Claude Opus 5.5 music video for *I'm Upping My P(doom)*](https://youtu.be/8j-hR4fJywU).
+
+
+
+<img width="800" height="450" alt="recursion_loop" src="https://github.com/user-attachments/assets/7d6164ff-6706-40bb-bdf5-099d86e583e1" />
+
 
 ## Credits
 
