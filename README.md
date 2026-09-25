@@ -17,6 +17,7 @@ Highly recommend checking it out!
 
 - **Inspired by:** [this post on X](https://x.com/slimer48484/status/2097752569212756134)
 - **Song:** as far as I could find, it comes from [this YouTube video from 2024](https://www.youtube.com/watch?v=uEB5E67vcPA)
+- **Lyrics** from Osmarks showing the original udio generations and [the interpretation of each lyric](https://docs.osmarks.net/hypha/p(doom)_song_objectively_correct_interpretation)
 
 ## How it was made
 
