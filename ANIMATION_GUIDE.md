@@ -55,7 +55,7 @@ Other helpers:
 - **Lettering** (Permanent Marker, with an ink drop-shadow). Letters are placed through the active camera automatically, but not through your own `push/translate`, so give letter coordinates in world space.
   - `letter(txt, x, y, size, colour, { pop, rot, alpha, ink:false, stroke, font, align, screen:true })`. `pop` is 0..1 appear progress with overshoot.
   - `sfx(txt, x, y, size, colour, age, { life, rot })` is a comic sound effect that pops in, wobbles and fades out.
-  - Letters are composited onto the painting at `flushLetters()`. That runs automatically after your shot, so anything painted later (wipes) covers them. Call `flushLetters()` yourself mid-shot if you need paint over a letter.
+  - Letters are composited onto the painting at `flushLetters()`. That runs automatically after your shot, so anything painted later (wipes) covers them. Call `flushLetters()` yourself mid-shot if you need to paint over a letter.
 - **Full-frame effects** (screen space, outside the camera):
   - `flash(k, colour)` paints a full-frame wash at strength k.
   - `iris(cx, cy, r, colour)` paints everything outside a circle.
